@@ -1,2 +1,2 @@
-# pagenda
-agenda teste php
+# Pagenda
+Agenda web php, para estudo da linguagem.
