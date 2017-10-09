@@ -1,0 +1,25 @@
+create schema agenda;
+use agenda;
+
+
+create table usuarios (
+	id_usr int(11) primary key auto_increment,
+    nome varchar(100) not null,
+    email varchar(100) not null,
+    senha varchar (100) not null
+);
+
+create table contatos (
+	id_contato int(11) primary key auto_increment,
+	nome varchar(100) not null,
+    email varchar(100) not null,
+    telefone varchar(15),
+    celular varchar(15),
+    endereco varchar(100),
+    num_casa int(6),
+    bairro varchar(50),
+    cidade varchar(50),
+    id_usr int(11)
+);
+
+alter table contatos add CONSTRAINT fk_usr_contato foreign key (id_usr) references usuarios(id_usr);
