@@ -1,0 +1,54 @@
+#title{
+	 font-size: 46px;
+	text-shadow: 2px 2px ;
+	margin: auto;
+	text-shadow: #000 1px -1px 2px,
+	#000 -1px 1px 2px,
+	#000 1px 1px 2px,
+	#000 -1px -1px 2px;
+}
+
+
+.fontm-pagenda{
+	font-size: 20px;
+}
+
+.btn-pagenda{
+	background:linear-gradient(to bottom, #4B0082 5%, #000080 100%);
+	background-color:#F0F8FF;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:#F0F8FF;
+	padding:11px 23px;
+}
+
+.footer{
+	position:absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.jumbotron{
+	background-image: url("../img/bloco.png");
+	background-repeat: no-repeat;
+  background-size: auto;
+  background-origin: content-box;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+@font-face{
+	font-family: "pagenda";
+    src: url("../fonts/zackthin.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pagenda-font{
+ 	font-family: "pagenda";
+ }
+
+.form{
+	margin-top: 200px;
+}
